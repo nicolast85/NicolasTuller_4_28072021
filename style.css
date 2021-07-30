@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: 0!important; /*Update*/
+    outline: none!important;
 }
 
 a { /*Update*/
@@ -137,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #424242; /*Update*/
 }
 
 .d-bloc .a-btn:hover,
@@ -359,16 +359,6 @@ img { /*Update*/
     width: 26px;
 }
 
-.sr-only { /*Update*/
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    border: 0;
-}
-
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -378,20 +368,6 @@ img { /*Update*/
     float: right;
     position: relative;
     z-index: 2;
-}
-
-.nav {  /*Update*/
-    padding-left: 0;
-    list-style: none;
-}
-.navbar-nav>li>a { /*Update*/
-    line-height: 20px;
-}
-
-.nav>li>a { /*Update*/
-    position: relative;
-    display: block;
-    padding: 10px 15px;
 }
 
 @media (min-width: 768px) {
@@ -432,14 +408,7 @@ img { /*Update*/
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
-    }
-    .navbar-nav { /*Update*/
-        margin: 0;
-    }
-    .navbar-nav>li>a { /*Update*/
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }    
+    }  
 }
 
 .nav > li > .dropdown a {
@@ -557,8 +526,8 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px; /*Update*/
+    right: 10px; /*Update*/
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
@@ -745,6 +714,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex; /*Update*/
+    justify-content: space-around; /*Update*/
 }
 
 h2 {
@@ -783,7 +754,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto; /*Update*/
 }
 
 .portfolio-row {
@@ -853,15 +824,15 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/background-projet-la-chouette-agence.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/banniere-contact-la-chouette-agence.jpg"); /*Update*/
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/banniere-presentation-la-chouette-agence.jpg"); /*Update*/
 }
 
 @media (max-width: 1024px) {
