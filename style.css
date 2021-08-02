@@ -95,7 +95,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.png"); /*Update*/
     background-size: 280px 280px;
 }
 
@@ -368,6 +368,17 @@ img { /*Update*/
     float: right;
     position: relative;
     z-index: 2;
+}
+blockquote p { /*Update*/
+    font-size: 24px;
+    font-style: italic;
+    margin: 0px;
+}
+cite { /*Update*/
+    color: #575757;
+}
+.image_text { /*Update*/
+    font-size: 24px;
 }
 
 @media (min-width: 768px) {
@@ -672,6 +683,8 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    background-color: #F3976C; /*Update*/
+    border-radius: 40px;
 }
 
 .hero-bloc-text-sub {
@@ -789,7 +802,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #212121!important; /*Update*/
+    background-color: #F3976C; /*Update*/
 }
 
 .btn-atomic-tangerine { /*Bouton Envoyer*/
@@ -803,7 +817,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #212121!important; /*Update*/
 }
 
 .ltc-white:hover {
