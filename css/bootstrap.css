@@ -4849,7 +4849,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    text-decoration: none;
+    text-decoration: underline; /*Update*/
     background-color: #eee
 }
 
@@ -7793,6 +7793,8 @@ button.close {
 }
 
 .center-block {
+    background-color: #F3976C; /*Update*/
+    border-radius: 20px; /*Update*/
     display: block;
     margin-right: auto;
     margin-left: auto
