@@ -105,9 +105,8 @@
 .et-icon-upload,
 .et-icon-video,
 .et-icon-wallet,
-.et-icon-wine {
+.et-icon-wine { /*Update*/
     font-family: et-line;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
