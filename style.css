@@ -762,7 +762,7 @@ h4 {
     margin-top: 24px;
 }
 
-.white { /*Texte*/
+.contrast { /*Texte*/
     color: #212121!important; /*Update*/
 }
 
@@ -801,7 +801,7 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+.tc-contrast { /*Update*/
     color: #212121!important; /*Update*/
     background-color: #F3976C; /*Update*/
     padding-bottom: 2px; /*Update*/
@@ -812,6 +812,7 @@ h4 {
     margin-right: 80px; /*Update*/
     color: #212121!important; /*Update*/
     background-color: #F3976C; /*Update*/
+    position: relative; /*Update*/
 }
 
 .btn-atomic-tangerine { /*Bouton Envoyer*/
@@ -824,7 +825,7 @@ h4 {
     color: #000!important; /*Update*/
 }
 
-.ltc-white {
+.ltc-contrast { /*Update*/
     color: #212121!important; /*Update*/
 }
 
